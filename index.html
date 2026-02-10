@@ -749,10 +749,10 @@
         <div class="aurora-bg"></div>
         <div class="particle-container" id="particles1"></div>
         <div class="welcome-content">
-            <h1 class="welcome-title">Happy Birthday</h1>
-            <p class="welcome-subtitle">Untuk Orang Tersayang ✨</p>
+            <h1 class="welcome-title">Happy Birthday, Sayang 💖</h1>
+            <p class="welcome-subtitle">Aku bikinin ini buat kamu — klik yaaa ✨</p>
             <button class="start-btn" onclick="goToScene(2)">
-                <span>Mulai Petualangan 💕</span>
+              <span>Gaskeun 💕</span>
             </button>
         </div>
     </div>
@@ -761,14 +761,14 @@
     <div class="scene" id="scene2">
         <div class="particle-container" id="particles2"></div>
         <div style="text-align: center;">
-            <p class="instruction">📨 Klik amplop untuk membuka surat cinta</p>
+            <p class="instruction">📨 Pencet amplopnya ya sayang, ada pesan kecil 😙</p>
             <div class="envelope-wrapper">
                 <div class="envelope" id="envelope" onclick="openEnvelope()">
                     <div class="envelope-back"></div>
                     <div class="envelope-flap"></div>
                     <div class="love-letter">
                         <div class="letter-content">
-                            <p class="dear">Untuk Cinta Terindahku,</p>
+                            <p class="dear">Untuk Cintaku,</p>
                             <p id="typingText"></p>
                         </div>
                     </div>
@@ -822,7 +822,7 @@
     <div class="scene" id="scene4">
         <div class="particle-container" id="particles4"></div>
         <div class="cake-scene">
-            <h2 class="birthday-message">Selamat Ulang Tahun! 🎉</h2>
+            <h2 class="birthday-message">Happy Birthday ya, Sayang! 🎉</h2>
             <div class="cake-3d">
                 <div class="cake-layer-3d">
                     <div class="mega-candle">
@@ -833,9 +833,9 @@
                 <div class="cake-layer-3d"></div>
             </div>
             <p class="wish-text">
-                Semoga semua impian dan harapanmu menjadi kenyataan. 
-                Terima kasih sudah menjadi cahaya dalam hidupku. 
-                Aku bersyukur bisa merayakan hari istimewa ini bersamamu! 💫
+                 Semoga tahun ini kamu makin happy, makin kuat, dan makin disayang sama banyak hal baik 🤍  
+                 Makasih udah nemenin aku dari yang capek-capek sampai yang ketawa-ketawa.  
+                 Intinya… aku sayang kamu, banyak.
             </p>
             <button class="next-scene-btn" onclick="goToScene(5)">
                 Pesan Terakhir 💌
@@ -849,9 +849,8 @@
         <div class="final-content">
             <h2 class="final-title">I Love You So Much!</h2>
             <p class="final-message">
-                Kamu adalah hadiah terbaik dalam hidupku. 
-                Setiap hari bersamamu adalah hari spesial. 
-                Semoga kita bisa terus bersama dan menciptakan lebih banyak kenangan indah! 
+                Kita udah ngelewatin banyak hal bareng—susah, seneng, sedih, bahagia—dan aku masih pengen lanjut bareng kamu.  
+                Jangan keburu berubah ya… pokoknya tetep sama aku 😚
             </p>
             <div class="heart-explosion">💖✨💕💫💝</div>
             <br><br>
@@ -969,7 +968,14 @@
         }
 
         // Typing effect
-        const loveMessage = "Selamat ulang tahun sayang! ✨\n\nDi hari spesial ini, aku ingin kamu tahu betapa berharganya kamu bagiku. Setiap momen bersamamu adalah hadiah terindah. 💕\n\nTerima kasih sudah ada dan melengkapi hidupku. Semoga tahun ini membawa kebahagiaan, kesuksesan, dan semua yang kamu impikan.\n\nI love you more than words can say! 💖\n\nWith all my love,\nYour forever ❤️";
+        const loveMessage = "Hai Febi sayanggg 😚\n\n" +
+                            "Selamat ulang tahun yaa! Maaf aku telat bikinnya, tapi aku bikinnya sambil mikirin kamu beneran.\n\n" +
+                            "Aku cuma mau bilang: makasih udah tetap bareng aku, dari yang capek-capek sampai yang ketawa-ketawa. " +
+                            "Kita udah ngelewatin banyak hal, dan aku suka banget cara kita selalu balik lagi jadi “kita”.\n\n" +
+                            "Semoga tahun ini kamu makin bahagia, sehat, rezekinya lancar, dan semua yang kamu pengenin pelan-pelan kejadian ya 🤍\n\n" +
+                            "Udah ya, jangan kebanyakan baca nanti kamu senyum-senyum sendiri 😌\n\n" +
+                            "Dari aku,\n" +
+                            "yang (masih) paling sayang kamu 💖";
         let i = 0;
 
         function typeWriter() {
@@ -1069,3 +1075,4 @@
     </script>
 </body>
 </html>
+
